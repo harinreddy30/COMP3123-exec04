@@ -15,7 +15,7 @@ app.get('/user', (req, res) =>{
 
 app.post('/user/:firstname/:lastname', (req, res) =>{
     const firstname = req.params.firstname;
-    const lastname = req.params.lastnRRame;
+    const lastname = req.params.lastname;
 
     res.json({firstname,lastname});
 
